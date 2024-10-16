@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Servicios - conciencIA</title>
+</head>
+<body>
+    <header>
+        <div class="logo">conciencIA</div>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="servicios">
+            <h1>Nuestros Servicios</h1>
+
+            <div class="servicio">
+                <img src="{{ url_for('static', filename='img/servicio1.jpg') }}" alt="Automatización de Procesos">
+                <h2>Automatización de Procesos</h2>
+                <p>Soluciones avanzadas que permiten la automatización completa de los procesos empresariales, mejorando la eficiencia y reduciendo costos operativos.</p>
+                <a href="#" class="btn">Leer más</a>
+            </div>
+
+            <div class="servicio">
+                <img src="{{ url_for('static', filename='img/servicio2.jpg') }}" alt="Inteligencia Artificial Personalizada">
+                <h2>Inteligencia Artificial Personalizada</h2>
+                <p>Desarrollo de soluciones de IA personalizadas para las necesidades específicas de cada empresa, garantizando una integración eficiente.</p>
+                <a href="#" class="btn">Leer más</a>
+            </div>
+
+            <div class="servicio">
+                <img src="{{ url_for('static', filename='img/servicio3.jpg') }}" alt="Consultoría en Transformación Digital">
+                <h2>Consultoría en Transformación Digital</h2>
+                <p>Ofrecemos consultoría para ayudar a las empresas a adaptarse a las nuevas tecnologías y optimizar sus procesos mediante soluciones digitales.</p>
+                <a href="#" class="btn">Leer más</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 conciencIA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

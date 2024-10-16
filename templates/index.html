@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Inicio - conciencIA</title>
+</head>
+<body>
+    <header>
+        <div class="logo">conciencIA</div>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Automatización Inteligente para Empresas</h1>
+            <p>En conciencIA, ofrecemos soluciones de automatización inteligente para optimizar los procesos empresariales, mejorando la eficiencia y reduciendo costos a través de IA avanzada.</p>
+        </section>
+
+        <section class="testimonios">
+            <h2>Testimonios de Clientes</h2>
+            <blockquote>
+                "Automatizar con conciencIA transformó completamente nuestra cadena de producción." — Cliente A
+            </blockquote>
+            <blockquote>
+                "Gracias a conciencIA, hemos reducido los tiempos de entrega en un 40%." — Cliente B
+            </blockquote>
+        </section>
+
+        <section class="ventajas">
+            <h2>Ventajas de Nuestros Servicios</h2>
+            <ul>
+                <li>Reducción de costos.</li>
+                <li>Eficiencia mejorada.</li>
+                <li>Soluciones personalizadas.</li>
+            </ul>
+        </section>
+
+        <section class="redes-sociales">
+            <h2>Conéctate con nosotros</h2>
+            <a href="#" class="social-button">Facebook</a>
+            <a href="#" class="social-button">Twitter</a>
+            <a href="#" class="social-button">LinkedIn</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 conciencIA. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

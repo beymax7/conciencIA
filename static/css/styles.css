@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonios,
+.ventajas,
+.redes-sociales {
+    margin-top: 20px;
+}
+
+.social-button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.historia, .mision-vision, .equipo {
+    margin-top: 20px;
+}
+
+.miembros {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.miembro {
+    text-align: center;
+}
+
+.miembro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.servicios {
+    margin-top: 20px;
+}
+
+.servicio {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.servicio img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.servicio h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.servicio p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.noticias {
+    margin-top: 20px;
+}
+
+.noticia {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.noticia img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.noticia h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.noticia p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contacto {
+    margin-top: 20px;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto label {
+    margin-bottom: 5px;
+}
+
+.contacto input, 
+.contacto textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #0056b3;
+}
+
+.mapa {
+    margin-top: 20px;
+}

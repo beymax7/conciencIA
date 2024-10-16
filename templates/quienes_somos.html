@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Quiénes Somos - conciencIA</title>
+</head>
+<body>
+    <header>
+        <div class="logo">conciencIA</div>
+        <nav>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/quienes-somos">Quiénes Somos</a></li>
+                <li><a href="/servicios">Servicios</a></li>
+                <li><a href="/noticias">Noticias</a></li>
+                <li><a href="/contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="historia">
+            <h1>Nuestra Historia</h1>
+            <p>conciencIA nació con la visión de revolucionar la forma en que las empresas gestionan sus procesos. Fundada por un equipo de expertos en inteligencia artificial, nuestra empresa ha crecido rápidamente gracias a la confianza de nuestros clientes en nuestras soluciones automatizadas.</p>
+        </section>
+
+        <section class="mision-vision">
+            <h2>Misión</h2>
+            <p>Ofrecer soluciones inteligentes y automatizadas que permitan a las empresas mejorar su eficiencia y reducir costos, mediante el uso de inteligencia artificial avanzada.</p>
+
+            <h2>Visión</h2>
+            <p>Ser la empresa líder en automatización empresarial, brindando soluciones innovadoras y personalizadas que transformen las operaciones de nuestros clientes a nivel global.</p>
+        </section>
+
+        <section class="equipo">
+            <h2>Nuestro Equipo</h2>
+            <div class="miembros">
+                <div class="miembro">
+                    <img src="{{ url_for('static', filename='img/miembro1.png') }}" alt="Miembro 1">
+                    <h3>Ana García</h3>
+                    <p>CEO y Fundadora</p>
+                </div>
+                <div class="miembro">
+                    <img src="{{ url_for('static', filename='img/miembro2.png') }}" alt="Miembro 2">
+                    <h3>Javier Pérez</h3>
+                    <p>Director de Tecnología</p>
+                </div>
+                <div class="miembro">
+                    <img src="{{ url_for('static', filename='img/miembro3.png') }}" alt="Miembro 3">
+                    <h3>Lucía Fernández</h3>
+                    <p>Gerente de Operaciones</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 conciencIA. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
